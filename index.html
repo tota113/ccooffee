@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaff - Cafe & Coffee</title>
+    <link  href="css/style.css">
+</head>
+<body>
+    <section class="head">
+        <div class="content flex1">
+            <div class="social_media flex">
+                <span>Follow Us</span>
+                    <hr>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-instagram"></i>
+
+                <div class="logo">
+                    <img src="image/logo.png" alt="logo">
+                </div>
+                <div class="acount social_media flex">
+                    <i class="fas fa-user"></i>
+                    <i class="fas fa-shopping-bag"></i>
+                    <i class="fas fa-search"></i>
+                </div>
+        </div>
+    </section>
+
+    <header>
+        <nav>
+            <div id="mySidenav" class="sidenav">
+                <span class="closebtn" onclick="closeNav()">&times;</span>
+                <div class="menu_items">
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Products</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </div>
+             </div>
+             <div class="social_media">
+                <i class="fas fa-bars hamburger-icon" onclick="openNav()"></i>
+             </div>
+        </nav>
+    </header>
+    <script>
+       function openNav(){
+              document.getElementById("mySidenav").style.width = "250px";
+       }
+       function closeNav(){
+              document.getElementById("mySidenav").style.width = "0px"
+       }
+
+    </script>
+
+    <section class="home">
+    <div class="item">
+      <div class="heading">
+        <h1> <span>Best coffee</span>Great company</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ducimus cumque vitae excepturi quis perspiciatis iure quibusdam maiores, doloribus illo dolorem ipsum itaque voluptatibus possimus dolorum tempora similique quisquam. Vero.</p>
+        <button>Taste coffee</button>
+         </div>
+         <div class="img">
+           <img src="img/home.jpg" alt="">
+
+         </div>
+        </div>
+    </section>
+
+
+
+
+
+</body>
+</html>
