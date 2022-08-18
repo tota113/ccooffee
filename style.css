@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+p{
+    color: grey;
+    line-height: 25px;
+}
+
+.head .content{
+    padding: 30px;
+}
+
+.head span {
+    opacity: 0.7;
+    margin-top: 15px;
+}
+
+.head hr {
+    width: 30px;
+    height: 1px;
+    margin: 20px 0 0 20px;
+    background: white;
+    opacity: 0.7;
+}
+
+.social_media i{
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   color: #4d8b55;
+   border-radius: 50%;
+   margin-left: 20px;
+   opacity: 0.7;
+   cursor:  pointer;
+   transition: 0.5s;
+}
+
+.social_media i:hover{
+       border: 2px solid #fff;
+       color: white
+}
+
+/*------------------------head--------------------*/
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10000;
+    top:  0;
+    right: 0 ;
+    background: #4d8b55;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a{
+    margin: 20px;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.sidenav .closebtn{
+    position: absolute;
+    top: 13px;
+    right: 32px;
+    font-size: 38px;
+    margin-left: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.sidenav a:hover{
+    color: #c0212a;
+}
+
+.menu_items{
+    margin-top: 20px;
+}
+
+.hamburger-icon{
+    position: absolute;
+    z-index: 1000;
+    right: 14%;
+    top: 30px;
+    cursor: pointer;
+    display: inherit;
+}
