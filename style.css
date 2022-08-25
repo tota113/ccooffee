@@ -105,8 +105,76 @@ p{
 .hamburger-icon{
     position: absolute;
     z-index: 1000;
-    right: 14%;
+    right: 17%;
     top: 30px;
     cursor: pointer;
     display: inherit;
+}
+
+/*-------------header----------*/
+
+.home img {
+ position: absolute;
+ top: 0;
+ z-index: -1;
+ width: 100%;
+ height: 100vh;
+}
+
+.home::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: (0,0,0,0.7);
+  z-index: 1;
+}
+
+.home .heading{
+  position: relative;
+  z-index: 10;
+  color: white;
+  text-align: center;
+  max-width: 60%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+
+.heading h1 {
+    font-size: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 120px;
+}
+
+
+.heading h1 span{
+    color: #4d8b55;
+}
+
+.heading p {
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+button {
+    padding: 25px 80px;
+    background: #4d8b55;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background: #fff;
+    color: #4d8b55;
 }
